@@ -1,0 +1,31 @@
+{
+  "name": "@stej/emoji",
+  "version": "1.0.0",
+  "description": "A React component to insert emojis",
+  "main": "src/index.jsx",
+  "author": "Jonathan Meyer",
+  "license": "ISC",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "emoji-toolkit": "^5.0.3"
+  },
+  "peerDependencies": {
+    "react": "16",
+    "react-dom": "16"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-jest": "^24.8.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0",
+    "react": "16",
+    "react-dom": "16"
+  }
+}
