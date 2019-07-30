@@ -31,5 +31,22 @@
     "jest-cli": "^24.8.0",
     "react": "16",
     "react-dom": "16"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-meyer/emoji.git"
+  },
+  "keywords": [
+    "react",
+    "emoji",
+    "joypixels"
+  ],
+  "bugs": {
+    "url": "https://github.com/jonathan-meyer/emoji/issues"
+  },
+  "homepage": "https://github.com/jonathan-meyer/emoji#readme"
 }
