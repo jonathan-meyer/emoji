@@ -1,6 +1,7 @@
 {
   "name": "@stej/emoji",
   "version": "1.0.1",
+  "private": false,
   "description": "A React component to insert emojis",
   "main": "lib/index.js",
   "author": "Jonathan Meyer",
