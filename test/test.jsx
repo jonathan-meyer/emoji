@@ -1,8 +1,7 @@
 import React from "react";
-import { shallow, mount, render } from "enzyme";
+import { render } from "enzyme";
 
 import Emoji from "../src/index";
-import { COPYFILE_EXCL } from "constants";
 
 describe("Emoji", () => {
   it("renders with no children", () => {
