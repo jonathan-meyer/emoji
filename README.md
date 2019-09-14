@@ -1,6 +1,9 @@
+# &lt;Emoji/&gt;
+
 [![Build Status](https://travis-ci.org/jonathan-meyer/emoji.svg?branch=master)](https://travis-ci.org/jonathan-meyer/emoji)
 
-# &lt;Emoji/&gt;
+[![npm](https://img.shields.io/npm/v/@stej/emoji)](https://www.npmjs.com/package/@stej/emoji)
+[![npm](https://img.shields.io/npm/dt/@stej/emoji)](https://www.npmjs.com/package/@stej/emoji)
 
 React component to insert emojis as images into your app.
 
