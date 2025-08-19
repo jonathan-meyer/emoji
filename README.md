@@ -15,14 +15,11 @@ npm add @stej/emoji
 
 ## Usage
 
-```js
-import React from "react";
+```tsx
 import Emoji from "@stej/emoji";
 
-class MyComponent extends React.Component {
-  render() {
-    return <Emoji>:bearded_person_tone2: Jonathan Meyer</Emoji>;
-  }
+const MyComponent = () => {
+  return <Emoji>:bearded_person_tone2: Jonathan Meyer</Emoji>;
 }
 
 export default MyComponent;
