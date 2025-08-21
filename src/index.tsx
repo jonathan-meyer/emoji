@@ -33,8 +33,9 @@ const Emoji = ({ children }: EmojiProps) => {
       React.Children.map(children, async (child) => {
         if (React.isValidElement<FragmentProps>(child)) {
           return React.cloneElement(child, {
-            children: React.Children.map(child.props.children, (c) =>
-              parse(c).then((c) => c)
+            children: React.Children.map(
+              child.props.children,
+              async (c) => await parse(c)
             ),
           });
         }
@@ -76,7 +77,13 @@ const Emoji = ({ children }: EmojiProps) => {
   useEffect(() => {
     parse(children)
       .then(setParsed)
-      .catch((err) => setParsed(<>Error: {err}</>));
+      .catch((err) =>
+        setParsed(
+          <>
+            Error: <pre>{JSON.stringify(err)}</pre>
+          </>
+        )
+      );
   }, [children, parse]);
 
   return parsed;
